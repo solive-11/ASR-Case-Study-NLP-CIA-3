@@ -1,0 +1,56 @@
+{
+  "samples": [
+    {
+      "name": "Sample 1 - News reading",
+      "reference": "salut mon frère j'espère que vous allez bien bienvenue dans notre classe de science des données",
+      "whisper_output": "salut mon frere, j'espere que vous allez bien. Bienvenue dans notre classe de science des donnees.",
+      "whisper_wer": 25.0,
+      "whisper_cer": 6.3,
+      "google_output": "salut mon frère j'espère que vous allez bien bienvenue dans notre classe de science de données",
+      "google_wer": 6.2,
+      "google_cer": 1.1
+    },
+    {
+      "name": "Sample 2 - Casual speech",
+      "reference": "ici on apprend le langage naturel en apprenant les données vocales et on les convertit en texte",
+      "whisper_output": "Ici, on apprend le langage naturel en apprenant les données vocales et on les converti en texte.",
+      "whisper_wer": 17.6,
+      "whisper_cer": 3.2,
+      "google_output": "ici on apprend le langage naturel en apprennant les données vocales et on les convertit en texte",
+      "google_wer": 5.9,
+      "google_cer": 1.1
+    },
+    {
+      "name": "Sample 3 - Liaisons",
+      "reference": "on sait que la langue française a des problèmes de liaisons et d'accords et ça peut causer des problèmes à notre modèle d'apprentissage automatique",
+      "whisper_output": "On sait que la langue francaise a des problem des liasons et d'accord et ca peut causer des problem a notres model de l'apprentissage de machine.",
+      "whisper_wer": 58.3,
+      "whisper_cer": 17.7,
+      "google_output": "on sait que la langue française a des problèmes de liaisons et d'accord et ça peut causer des problèmes à notre modèle de l'apprentissage de machine",
+      "google_wer": 20.8,
+      "google_cer": 8.2
+    },
+    {
+      "name": "Sample 4 - Numbers/names",
+      "reference": "j'espère que cette explication va vous donner des clarifications sur le projet en cours et que vous comprenez les difficultés de convertir les audios en texte",
+      "whisper_output": "j'espere que cette explication va vous donner des clarifications sur le projet en main et que vous comprenez les difficultes de converture les audio en text.",
+      "whisper_wer": 23.1,
+      "whisper_cer": 7.0,
+      "google_output": "j'espère que cette explication va vous donner des clarifications sur le projet en main et que vous comprenez les difficultés de convertir les audios en texte",
+      "google_wer": 3.8,
+      "google_cer": 3.2
+    },
+    {
+      "name": "Sample 5 - Noisy speech",
+      "reference": "merci pour votre attention ici le groupe numéro cinq et j'espère que le message est utile",
+      "whisper_output": "Merci pour votre attention, ici group numero 5 et j'espere que le message est utile.",
+      "whisper_wer": 43.8,
+      "whisper_cer": 13.5,
+      "google_output": "merci pour votre attention ici le groupe numéro 5 et j'espère que le message est utile",
+      "google_wer": 6.2,
+      "google_cer": 4.5
+    }
+  ],
+  "whisper_avg_wer": 33.6,
+  "google_avg_wer": 8.6
+}
